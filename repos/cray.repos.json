@@ -1,0 +1,60 @@
+{
+    "repos": [
+        {
+            "enabled": "yes",
+            "url": "https://arti.dev.cray.com/artifactory/cos-rpm-stable-local/release/cos-2.3/sle15_sp3_ncn/",                         
+            "alias": "cray-cos-sle-15sp3-SHASTA-OS-cos-2.2",
+            "priority": "89",
+            "disable_gpg_check": "yes",                  
+            "path": "cray/cos/sle-15sp3-ncn"
+        },
+        {
+            "enabled": "yes",
+            "url": "https://artifactory.algol60.net/artifactory/csm-rpms/hpe/stable/sle-15sp3/",
+            "alias": "cray-algol60-csm-rpms-stable-sle-15sp3",
+            "priority": "89",
+            "disable_gpg_check": "yes",
+            "path": "cray/csm/sle-15sp3"
+        },
+        {
+            "enabled": "yes",
+            "url": "https://artifactory.algol60.net/artifactory/csm-rpms/hpe/stable/sle-15sp2/",
+            "alias": "cray-algol60-csm-rpms-stable-sle-15sp2",
+            "priority": "89",
+            "disable_gpg_check": "yes",
+            "path": "cray/csm/sle-15sp2"
+        },
+        {
+            "enabled": "yes",
+            "url": "https://arti.dev.cray.com/artifactory/sat-rpm-master-local/dev/master/sle15_sp2_ncn/",
+            "alias": "cray-sat-sle-15sp2-x86_64-master",
+            "priority": "89",
+            "disable_gpg_check": "yes",
+            "path": "cray/sat/sle-15sp2/x86_64"
+        },
+        {
+            "enabled": "yes",
+            "url": "https://arti.dev.cray.com/artifactory/csm-rpm-stable-local/hpe/",
+            "alias": "x86_64/canu",
+            "priority": "89",
+            "disable_gpg_check": "yes",
+            "path":  "cray/csm/sle-15sp3/x86_64"
+        },
+        {
+            "enabled": "yes",
+            "url": "https://arti.dev.cray.com/artifactory/csm-rpm-stable-local/release/",
+            "alias": "cray-csm-rpm-stable-local-release",
+            "priority": "89",
+            "disable_gpg_check": "yes",
+            "path": "cray/csm/rpm/stable/local/release"
+        },
+        {
+            "enabled": "yes",
+            "url": "https://arti.dev.cray.com/artifactory/sdu-rpm-stable-local/release/img_oci-shasta-1.2/sle15_sp3_ncn/",
+            "alias": "sdu-rpm-stable-local",
+            "priority": "89",
+            "disable_gpg_check": "yes",
+            "path": "sdu-rpm-stable-local/release/1.2/sle15_sp3_ncn/"
+        }
+    ]
+}

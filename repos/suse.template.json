@@ -1,0 +1,507 @@
+{
+	"repos": [{
+			"enabled": "yes",
+			"url": "https://{{ ARTIFACTORY_USER }}:{{ ARTIFACTORY_TOKEN }}@artifactory.algol60.net/artifactory/sles-mirror/Products/SLE-Module-Basesystem/15-SP3/x86_64/product?auth=basic",
+			"alias": "SUSE-SLE-Module-Basesystem-15-SP3-x86_64-Pool",
+			"disable_gpg_check": "no",
+			"priority": "89",
+			"path": "suse/SLE-Module-Basesystem/15-SP3/x86_64/product"
+		},
+		{
+			"enabled": "no",
+			"url": "https://{{ ARTIFACTORY_USER }}:{{ ARTIFACTORY_TOKEN }}@artifactory.algol60.net/artifactory/sles-mirror/Products/SLE-Module-Basesystem/15-SP3/x86_64/product_debug?auth=basic",
+			"alias": "SUSE-SLE-Module-Basesystem-15-SP3-x86_64-Debuginfo-Pool",
+			"disable_gpg_check": "no",
+			"priority": "89",
+			"path": "suse/SLE-Module-Basesystem/15-SP3/x86_64/product_debug"
+		},
+		{
+			"enabled": "yes",
+			"url": "https://{{ ARTIFACTORY_USER }}:{{ ARTIFACTORY_TOKEN }}@artifactory.algol60.net/artifactory/sles-mirror/Updates/SLE-Module-Basesystem/15-SP3/x86_64/update?auth=basic",
+			"alias": "SUSE-SLE-Module-Basesystem-15-SP3-x86_64-Updates",
+			"disable_gpg_check": "no",
+			"priority": "89",
+			"path": "suse/SLE-Module-Basesystem/15-SP3/x86_64/update"
+		},
+		{
+			"enabled": "no",
+			"url": "https://{{ ARTIFACTORY_USER }}:{{ ARTIFACTORY_TOKEN }}@artifactory.algol60.net/artifactory/sles-mirror/Updates/SLE-Module-Basesystem/15-SP3/x86_64/update_debug?auth=basic",
+			"alias": "SUSE-SLE-Module-Basesystem-15-SP3-x86_64-Debuginfo-Updates",
+			"disable_gpg_check": "no",
+			"priority": "89",
+			"path": "suse/SLE-Module-Basesystem/15-SP3/x86_64/update_debug"
+		},
+		{
+			"enabled": "yes",
+			"url": "https://{{ ARTIFACTORY_USER }}:{{ ARTIFACTORY_TOKEN }}@artifactory.algol60.net/artifactory/sles-mirror/Products/SLE-Module-Containers/15-SP3/x86_64/product?auth=basic",
+			"alias": "SUSE-SLE-Module-Containers-15-SP3-x86_64-Pool",
+			"disable_gpg_check": "no",
+			"priority": "89",
+			"path": "suse/SLE-Module-Containers/15-SP3/x86_64/product"
+		},
+		{
+			"enabled": "no",
+			"url": "https://{{ ARTIFACTORY_USER }}:{{ ARTIFACTORY_TOKEN }}@artifactory.algol60.net/artifactory/sles-mirror/Products/SLE-Module-Containers/15-SP3/x86_64/product_debug?auth=basic",
+			"alias": "SUSE-SLE-Module-Containers-15-SP3-x86_64-Debuginfo-Pool",
+			"disable_gpg_check": "no",
+			"priority": "89",
+			"path": "suse/SLE-Module-Containers/15-SP3/x86_64/product_debug"
+		},
+		{
+			"enabled": "yes",
+			"url": "https://{{ ARTIFACTORY_USER }}:{{ ARTIFACTORY_TOKEN }}@artifactory.algol60.net/artifactory/sles-mirror/Updates/SLE-Module-Containers/15-SP3/x86_64/update?auth=basic",
+			"alias": "SUSE-SLE-Module-Containers-15-SP3-x86_64-Updates",
+			"disable_gpg_check": "no",
+			"priority": "89",
+			"path": "suse/SLE-Module-Containers/15-SP3/x86_64/update"
+		},
+		{
+			"enabled": "no",
+			"url": "https://{{ ARTIFACTORY_USER }}:{{ ARTIFACTORY_TOKEN }}@artifactory.algol60.net/artifactory/sles-mirror/Updates/SLE-Module-Containers/15-SP3/x86_64/update_debug?auth=basic",
+			"alias": "SUSE-SLE-Module-Containers-15-SP3-x86_64-Debuginfo-Updates",
+			"disable_gpg_check": "no",
+			"priority": "89",
+			"path": "suse/SLE-Module-Containers/15-SP3/x86_64/update_debug"
+		},
+		{
+			"enabled": "yes",
+			"url": "https://{{ ARTIFACTORY_USER }}:{{ ARTIFACTORY_TOKEN }}@artifactory.algol60.net/artifactory/sles-mirror/Products/SLE-Module-Desktop-Applications/15-SP3/x86_64/product?auth=basic",
+			"alias": "SUSE-SLE-Module-Desktop-Applications-15-SP3-x86_64-Pool",
+			"disable_gpg_check": "no",
+			"priority": "89",
+			"path": "suse/SLE-Module-Desktop-Applications/15-SP3/x86_64/product"
+		},
+		{
+			"enabled": "no",
+			"url": "https://{{ ARTIFACTORY_USER }}:{{ ARTIFACTORY_TOKEN }}@artifactory.algol60.net/artifactory/sles-mirror/Products/SLE-Module-Desktop-Applications/15-SP3/x86_64/product_debug?auth=basic",
+			"alias": "SUSE-SLE-Module-Desktop-Applications-15-SP3-x86_64-Debuginfo-Pool",
+			"disable_gpg_check": "no",
+			"priority": "89",
+			"path": "suse/SLE-Module-Desktop-Applications/15-SP3/x86_64/product_debug"
+		},
+		{
+			"enabled": "yes",
+			"url": "https://{{ ARTIFACTORY_USER }}:{{ ARTIFACTORY_TOKEN }}@artifactory.algol60.net/artifactory/sles-mirror/Updates/SLE-Module-Desktop-Applications/15-SP3/x86_64/update?auth=basic",
+			"alias": "SUSE-SLE-Module-Desktop-Applications-15-SP3-x86_64-Updates",
+			"disable_gpg_check": "no",
+			"priority": "89",
+			"path": "suse/SLE-Module-Desktop-Applications/15-SP3/x86_64/update"
+		},
+		{
+			"enabled": "no",
+			"url": "https://{{ ARTIFACTORY_USER }}:{{ ARTIFACTORY_TOKEN }}@artifactory.algol60.net/artifactory/sles-mirror/Updates/SLE-Module-Desktop-Applications/15-SP3/x86_64/update_debug?auth=basic",
+			"alias": "SUSE-SLE-Module-Desktop-Applications-15-SP3-x86_64-Debuginfo-Updates",
+			"disable_gpg_check": "no",
+			"priority": "89",
+			"path": "suse/SLE-Module-Desktop-Applications/15-SP3/x86_64/update_debug"
+		},
+		{
+			"enabled": "yes",
+			"url": "https://{{ ARTIFACTORY_USER }}:{{ ARTIFACTORY_TOKEN }}@artifactory.algol60.net/artifactory/sles-mirror/Products/SLE-Module-Development-Tools/15-SP3/x86_64/product?auth=basic",
+			"alias": "SUSE-SLE-Module-Development-Tools-15-SP3-x86_64-Pool",
+			"disable_gpg_check": "no",
+			"priority": "89",
+			"path": "suse/SLE-Module-Development-Tools/15-SP3/x86_64/product"
+		},
+		{
+			"enabled": "no",
+			"url": "https://{{ ARTIFACTORY_USER }}:{{ ARTIFACTORY_TOKEN }}@artifactory.algol60.net/artifactory/sles-mirror/Products/SLE-Module-Development-Tools/15-SP3/x86_64/product_debug?auth=basic",
+			"alias": "SUSE-SLE-Module-Development-Tools-15-SP3-x86_64-Debuginfo-Pool",
+			"disable_gpg_check": "no",
+			"priority": "89",
+			"path": "suse/SLE-Module-Development-Tools/15-SP3/x86_64/product_debug"
+		},
+		{
+			"enabled": "yes",
+			"url": "https://{{ ARTIFACTORY_USER }}:{{ ARTIFACTORY_TOKEN }}@artifactory.algol60.net/artifactory/sles-mirror/Updates/SLE-Module-Development-Tools/15-SP3/x86_64/update?auth=basic",
+			"alias": "SUSE-SLE-Module-Development-Tools-15-SP3-x86_64-Updates",
+			"disable_gpg_check": "no",
+			"priority": "89",
+			"path": "suse/SLE-Module-Development-Tools/15-SP3/x86_64/update"
+		},
+		{
+			"enabled": "no",
+			"url": "https://{{ ARTIFACTORY_USER }}:{{ ARTIFACTORY_TOKEN }}@artifactory.algol60.net/artifactory/sles-mirror/Updates/SLE-Module-Development-Tools/15-SP3/x86_64/update_debug?auth=basic",
+			"alias": "SUSE-SLE-Module-Development-Tools-15-SP3-x86_64-Debuginfo-Updates",
+			"disable_gpg_check": "no",
+			"priority": "89",
+			"path": "suse/SLE-Module-Development-Tools/15-SP3/x86_64/update_debug"
+		},
+		{
+			"enabled": "yes",
+			"url": "https://{{ ARTIFACTORY_USER }}:{{ ARTIFACTORY_TOKEN }}@artifactory.algol60.net/artifactory/sles-mirror/Products/SLE-Module-HPC/15-SP3/x86_64/product?auth=basic",
+			"alias": "SUSE-SLE-Module-HPC-15-SP3-x86_64-Pool",
+			"disable_gpg_check": "no",
+			"priority": "89",
+			"path": "suse/SLE-Module-HPC/15-SP3/x86_64/product"
+		},
+		{
+			"enabled": "no",
+			"url": "https://{{ ARTIFACTORY_USER }}:{{ ARTIFACTORY_TOKEN }}@artifactory.algol60.net/artifactory/sles-mirror/Products/SLE-Module-HPC/15-SP3/x86_64/product_debug?auth=basic",
+			"alias": "SUSE-SLE-Module-HPC-15-SP3-x86_64-Debuginfo-Pool",
+			"disable_gpg_check": "no",
+			"priority": "89",
+			"path": "suse/SLE-Module-HPC/15-SP3/x86_64/product_debug"
+		},
+		{
+			"enabled": "yes",
+			"url": "https://{{ ARTIFACTORY_USER }}:{{ ARTIFACTORY_TOKEN }}@artifactory.algol60.net/artifactory/sles-mirror/Updates/SLE-Module-HPC/15-SP3/x86_64/update?auth=basic",
+			"alias": "SUSE-SLE-Module-HPC-15-SP3-x86_64-Updates",
+			"disable_gpg_check": "no",
+			"priority": "89",
+			"path": "suse/SLE-Module-HPC/15-SP3/x86_64/update"
+		},
+		{
+			"enabled": "no",
+			"url": "https://{{ ARTIFACTORY_USER }}:{{ ARTIFACTORY_TOKEN }}@artifactory.algol60.net/artifactory/sles-mirror/Updates/SLE-Module-HPC/15-SP3/x86_64/update_debug?auth=basic",
+			"alias": "SUSE-SLE-Module-HPC-15-SP3-x86_64-Debuginfo-Updates",
+			"disable_gpg_check": "no",
+			"priority": "89",
+			"path": "suse/SLE-Module-HPC/15-SP3/x86_64/update_debug"
+		},
+		{
+			"enabled": "no",
+			"url": "https://{{ ARTIFACTORY_USER }}:{{ ARTIFACTORY_TOKEN }}@artifactory.algol60.net/artifactory/sles-mirror/Products/SLE-Module-Legacy/15-SP3/x86_64/product?auth=basic",
+			"alias": "SUSE-SLE-Module-Legacy-15-SP3-x86_64-Pool",
+			"disable_gpg_check": "no",
+			"priority": "89",
+			"path": "suse/SLE-Module-Legacy/15-SP3/x86_64/product"
+		},
+		{
+			"enabled": "no",
+			"url": "https://{{ ARTIFACTORY_USER }}:{{ ARTIFACTORY_TOKEN }}@artifactory.algol60.net/artifactory/sles-mirror/Products/SLE-Module-Legacy/15-SP3/x86_64/product_debug?auth=basic",
+			"alias": "SUSE-SLE-Module-Legacy-15-SP3-x86_64-Debuginfo-Pool",
+			"disable_gpg_check": "no",
+			"priority": "89",
+			"path": "suse/SLE-Module-Legacy/15-SP3/x86_64/product_debug"
+		},
+		{
+			"enabled": "yes",
+			"url": "https://{{ ARTIFACTORY_USER }}:{{ ARTIFACTORY_TOKEN }}@artifactory.algol60.net/artifactory/sles-mirror/Updates/SLE-Module-Legacy/15-SP3/x86_64/update?auth=basic",
+			"alias": "SUSE-SLE-Module-Legacy-15-SP3-x86_64-Updates",
+			"disable_gpg_check": "no",
+			"priority": "89",
+			"path": "suse/SLE-Module-Legacy/15-SP3/x86_64/update"
+		},
+		{
+			"enabled": "no",
+			"url": "https://{{ ARTIFACTORY_USER }}:{{ ARTIFACTORY_TOKEN }}@artifactory.algol60.net/artifactory/sles-mirror/Updates/SLE-Module-Legacy/15-SP3/x86_64/update_debug?auth=basic",
+			"alias": "SUSE-SLE-Module-Legacy-15-SP3-x86_64-Debuginfo-Updates",
+			"disable_gpg_check": "no",
+			"priority": "89",
+			"path": "suse/SLE-Module-Legacy/15-SP3/x86_64/update_debug"
+		},
+		{
+			"enabled": "yes",
+			"url": "https://{{ ARTIFACTORY_USER }}:{{ ARTIFACTORY_TOKEN }}@artifactory.algol60.net/artifactory/sles-mirror/Products/SLE-Module-Public-Cloud/15-SP3/x86_64/product?auth=basic",
+			"alias": "SUSE-SLE-Module-Public-Cloud-15-SP3-x86_64-Pool",
+			"disable_gpg_check": "no",
+			"priority": "89",
+			"path": "suse/SLE-Module-Public-Cloud/15-SP3/x86_64/product"
+		},
+		{
+			"enabled": "no",
+			"url": "https://{{ ARTIFACTORY_USER }}:{{ ARTIFACTORY_TOKEN }}@artifactory.algol60.net/artifactory/sles-mirror/Products/SLE-Module-Public-Cloud/15-SP3/x86_64/product_debug?auth=basic",
+			"alias": "SUSE-SLE-Module-Public-Cloud-15-SP3-x86_64-Debuginfo-Pool",
+			"disable_gpg_check": "no",
+			"priority": "89",
+			"path": "suse/SLE-Module-Public-Cloud/15-SP3/x86_64/product_debug"
+		},
+		{
+			"enabled": "yes",
+			"url": "https://{{ ARTIFACTORY_USER }}:{{ ARTIFACTORY_TOKEN }}@artifactory.algol60.net/artifactory/sles-mirror/Updates/SLE-Module-Public-Cloud/15-SP3/x86_64/update?auth=basic",
+			"alias": "SUSE-SLE-Module-Public-Cloud-15-SP3-x86_64-Updates",
+			"disable_gpg_check": "no",
+			"priority": "89",
+			"path": "suse/SLE-Module-Public-Cloud/15-SP3/x86_64/update"
+		},
+		{
+			"enabled": "no",
+			"url": "https://{{ ARTIFACTORY_USER }}:{{ ARTIFACTORY_TOKEN }}@artifactory.algol60.net/artifactory/sles-mirror/Updates/SLE-Module-Public-Cloud/15-SP3/x86_64/update_debug?auth=basic",
+			"alias": "SUSE-SLE-Module-Public-Cloud-15-SP3-x86_64-Debuginfo-Updates",
+			"disable_gpg_check": "no",
+			"priority": "89",
+			"path": "suse/SLE-Module-Public-Cloud/15-SP3/x86_64/update_debug"
+		},
+		{
+			"enabled": "no",
+			"url": "https://{{ ARTIFACTORY_USER }}:{{ ARTIFACTORY_TOKEN }}@artifactory.algol60.net/artifactory/sles-mirror/Products/SLE-Module-Python2/15-SP3/x86_64/product?auth=basic",
+			"alias": "SUSE-SLE-Module-Python2-15-SP3-x86_64-Pool",
+			"disable_gpg_check": "no",
+			"priority": "89",
+			"path": "suse/SLE-Module-Python2/15-SP3/x86_64/product"
+		},
+		{
+			"enabled": "no",
+			"url": "https://{{ ARTIFACTORY_USER }}:{{ ARTIFACTORY_TOKEN }}@artifactory.algol60.net/artifactory/sles-mirror/Products/SLE-Module-Python2/15-SP3/x86_64/product_debug?auth=basic",
+			"alias": "SUSE-SLE-Module-Python2-15-SP3-x86_64-Debuginfo-Pool",
+			"disable_gpg_check": "no",
+			"priority": "89",
+			"path": "suse/SLE-Module-Python2/15-SP3/x86_64/product_debug"
+		},
+		{
+			"enabled": "no",
+			"url": "https://{{ ARTIFACTORY_USER }}:{{ ARTIFACTORY_TOKEN }}@artifactory.algol60.net/artifactory/sles-mirror/Updates/SLE-Module-Python2/15-SP3/x86_64/update?auth=basic",
+			"alias": "SUSE-SLE-Module-Python2-15-SP3-x86_64-Updates",
+			"disable_gpg_check": "no",
+			"priority": "89",
+			"path": "suse/SLE-Module-Python2/15-SP3/x86_64/update"
+		},
+		{
+			"enabled": "no",
+			"url": "https://{{ ARTIFACTORY_USER }}:{{ ARTIFACTORY_TOKEN }}@artifactory.algol60.net/artifactory/sles-mirror/Updates/SLE-Module-Python2/15-SP3/x86_64/update_debug?auth=basic",
+			"alias": "SUSE-SLE-Module-Python2-15-SP3-x86_64-Debuginfo-Updates",
+			"disable_gpg_check": "no",
+			"priority": "89",
+			"path": "suse/SLE-Module-Python2/15-SP3/x86_64/update_debug"
+		},
+		{
+			"enabled": "yes",
+			"url": "https://{{ ARTIFACTORY_USER }}:{{ ARTIFACTORY_TOKEN }}@artifactory.algol60.net/artifactory/sles-mirror/Products/SLE-Module-Server-Applications/15-SP3/x86_64/product?auth=basic",
+			"alias": "SUSE-SLE-Module-Server-Applications-15-SP3-x86_64-Pool",
+			"disable_gpg_check": "no",
+			"priority": "89",
+			"path": "suse/SLE-Module-Server-Applications/15-SP3/x86_64/product"
+		},
+		{
+			"enabled": "no",
+			"url": "https://{{ ARTIFACTORY_USER }}:{{ ARTIFACTORY_TOKEN }}@artifactory.algol60.net/artifactory/sles-mirror/Products/SLE-Module-Server-Applications/15-SP3/x86_64/product_debug?auth=basic",
+			"alias": "SUSE-SLE-Module-Server-Applications-15-SP3-x86_64-Debuginfo-Pool",
+			"disable_gpg_check": "no",
+			"priority": "89",
+			"path": "suse/SLE-Module-Server-Applications/15-SP3/x86_64/product_debug"
+		},
+		{
+			"enabled": "yes",
+			"url": "https://{{ ARTIFACTORY_USER }}:{{ ARTIFACTORY_TOKEN }}@artifactory.algol60.net/artifactory/sles-mirror/Updates/SLE-Module-Server-Applications/15-SP3/x86_64/update?auth=basic",
+			"alias": "SUSE-SLE-Module-Server-Applications-15-SP3-x86_64-Updates",
+			"disable_gpg_check": "no",
+			"priority": "89",
+			"path": "suse/SLE-Module-Server-Applications/15-SP3/x86_64/update"
+		},
+		{
+			"enabled": "no",
+			"url": "https://{{ ARTIFACTORY_USER }}:{{ ARTIFACTORY_TOKEN }}@artifactory.algol60.net/artifactory/sles-mirror/Updates/SLE-Module-Server-Applications/15-SP3/x86_64/update_debug?auth=basic",
+			"alias": "SUSE-SLE-Module-Server-Applications-15-SP3-x86_64-Debuginfo-Updates",
+			"disable_gpg_check": "no",
+			"priority": "89",
+			"path": "suse/SLE-Module-Server-Applications/15-SP3/x86_64/update_debug"
+		},
+		{
+			"enabled": "no",
+			"url": "https://{{ ARTIFACTORY_USER }}:{{ ARTIFACTORY_TOKEN }}@artifactory.algol60.net/artifactory/sles-mirror/Products/SLE-Module-Web-Scripting/15-SP3/x86_64/product?auth=basic",
+			"alias": "SUSE-SLE-Module-Web-Scripting-15-SP3-x86_64-Pool",
+			"disable_gpg_check": "no",
+			"priority": "89",
+			"path": "suse/SLE-Module-Web-Scripting/15-SP3/x86_64/product"
+		},
+		{
+			"enabled": "no",
+			"url": "https://{{ ARTIFACTORY_USER }}:{{ ARTIFACTORY_TOKEN }}@artifactory.algol60.net/artifactory/sles-mirror/Products/SLE-Module-Web-Scripting/15-SP3/x86_64/product_debug?auth=basic",
+			"alias": "SUSE-SLE-Module-Web-Scripting-15-SP3-x86_64-Debuginfo-Pool",
+			"disable_gpg_check": "no",
+			"priority": "89",
+			"path": "suse/SLE-Module-Web-Scripting/15-SP3/x86_64/product_debug"
+		},
+		{
+			"enabled": "no",
+			"url": "https://{{ ARTIFACTORY_USER }}:{{ ARTIFACTORY_TOKEN }}@artifactory.algol60.net/artifactory/sles-mirror/Updates/SLE-Module-Web-Scripting/15-SP3/x86_64/update?auth=basic",
+			"alias": "SUSE-SLE-Module-Web-Scripting-15-SP3-x86_64-Updates",
+			"disable_gpg_check": "no",
+			"priority": "89",
+			"path": "suse/SLE-Module-Web-Scripting/15-SP3/x86_64/update"
+		},
+		{
+			"enabled": "no",
+			"url": "https://{{ ARTIFACTORY_USER }}:{{ ARTIFACTORY_TOKEN }}@artifactory.algol60.net/artifactory/sles-mirror/Updates/SLE-Module-Web-Scripting/15-SP3/x86_64/update_debug?auth=basic",
+			"alias": "SUSE-SLE-Module-Web-Scripting-15-SP3-x86_64-Debuginfo-Updates",
+			"disable_gpg_check": "no",
+			"priority": "89",
+			"path": "suse/SLE-Module-Web-Scripting/15-SP3/x86_64/update_debug"
+		},
+		{
+			"enabled": "yes",
+			"url": "https://{{ ARTIFACTORY_USER }}:{{ ARTIFACTORY_TOKEN }}@artifactory.algol60.net/artifactory/sles-mirror/Products/SLE-Product-HPC/15-SP3/x86_64/product?auth=basic",
+			"alias": "SUSE-SLE-Product-HPC-15-SP3-x86_64-Pool",
+			"disable_gpg_check": "no",
+			"priority": "89",
+			"path": "suse/SLE-Product-HPC/15-SP3/x86_64/product"
+		},
+		{
+			"enabled": "no",
+			"url": "https://{{ ARTIFACTORY_USER }}:{{ ARTIFACTORY_TOKEN }}@artifactory.algol60.net/artifactory/sles-mirror/Products/SLE-Product-HPC/15-SP3/x86_64/product_debug?auth=basic",
+			"alias": "SUSE-SLE-Product-HPC-15-SP3-x86_64-Debuginfo-Pool",
+			"disable_gpg_check": "no",
+			"priority": "89",
+			"path": "suse/SLE-Product-HPC/15-SP3/x86_64/product_debug"
+		},
+		{
+			"enabled": "yes",
+			"url": "https://{{ ARTIFACTORY_USER }}:{{ ARTIFACTORY_TOKEN }}@artifactory.algol60.net/artifactory/sles-mirror/Updates/SLE-Product-HPC/15-SP3/x86_64/update?auth=basic",
+			"alias": "SUSE-SLE-Product-HPC-15-SP3-x86_64-Updates",
+			"disable_gpg_check": "no",
+			"priority": "89",
+			"path": "suse/SLE-Product-HPC/15-SP3/x86_64/update"
+		},
+		{
+			"enabled": "no",
+			"url": "https://{{ ARTIFACTORY_USER }}:{{ ARTIFACTORY_TOKEN }}@artifactory.algol60.net/artifactory/sles-mirror/Updates/SLE-Product-HPC/15-SP3/x86_64/update_debug?auth=basic",
+			"alias": "SUSE-SLE-Product-HPC-15-SP3-x86_64-Debuginfo-Updates",
+			"disable_gpg_check": "no",
+			"priority": "89",
+			"path": "suse/SLE-Product-HPC/15-SP3/x86_64/update_debug"
+		},
+		{
+			"enabled": "yes",
+			"url": "https://{{ ARTIFACTORY_USER }}:{{ ARTIFACTORY_TOKEN }}@artifactory.algol60.net/artifactory/sles-mirror/Products/SLE-Product-SLES/15-SP3/x86_64/product?auth=basic",
+			"alias": "SUSE-SLE-Product-SLES-15-SP3-x86_64-Pool",
+			"disable_gpg_check": "no",
+			"priority": "89",
+			"path": "suse/SLE-Product-SLES/15-SP3/x86_64/product"
+		},
+		{
+			"enabled": "no",
+			"url": "https://{{ ARTIFACTORY_USER }}:{{ ARTIFACTORY_TOKEN }}@artifactory.algol60.net/artifactory/sles-mirror/Products/SLE-Product-SLES/15-SP3/x86_64/product_debug?auth=basic",
+			"alias": "SUSE-SLE-Product-SLES-15-SP3-x86_64-Debuginfo-Pool",
+			"disable_gpg_check": "no",
+			"priority": "89",
+			"path": "suse/SLE-Product-SLES/15-SP3/x86_64/product_debug"
+		},
+		{
+			"enabled": "yes",
+			"url": "https://{{ ARTIFACTORY_USER }}:{{ ARTIFACTORY_TOKEN }}@artifactory.algol60.net/artifactory/sles-mirror/Updates/SLE-Product-SLES/15-SP3/x86_64/update?auth=basic",
+			"alias": "SUSE-SLE-Product-SLES-15-SP3-x86_64-Updates",
+			"disable_gpg_check": "no",
+			"priority": "89",
+			"path": "suse/SLE-Product-SLES/15-SP3/x86_64/update"
+		},
+		{
+			"enabled": "no",
+			"url": "https://{{ ARTIFACTORY_USER }}:{{ ARTIFACTORY_TOKEN }}@artifactory.algol60.net/artifactory/sles-mirror/Updates/SLE-Product-SLES/15-SP3/x86_64/update_debug?auth=basic",
+			"alias": "SUSE-SLE-Product-SLES-15-SP3-x86_64-Debuginfo-Updates",
+			"disable_gpg_check": "no",
+			"priority": "89",
+			"path": "suse/SLE-Product-SLES/15-SP3/x86_64/update_debug"
+		},
+		{
+			"enabled": "no",
+			"url": "https://{{ ARTIFACTORY_USER }}:{{ ARTIFACTORY_TOKEN }}@artifactory.algol60.net/artifactory/sles-mirror/Products/SLE-Product-WE/15-SP3/x86_64/product?auth=basic",
+			"alias": "SUSE-SLE-Product-WE-15-SP3-x86_64-Pool",
+			"disable_gpg_check": "no",
+			"priority": "89",
+			"path": "suse/SLE-Product-WE/15-SP3/x86_64/product"
+		},
+		{
+			"enabled": "no",
+			"url": "https://{{ ARTIFACTORY_USER }}:{{ ARTIFACTORY_TOKEN }}@artifactory.algol60.net/artifactory/sles-mirror/Products/SLE-Product-WE/15-SP3/x86_64/product_debug?auth=basic",
+			"alias": "SUSE-SLE-Product-WE-15-SP3-x86_64-Debuginfo-Pool",
+			"disable_gpg_check": "no",
+			"priority": "89",
+			"path": "suse/SLE-Product-WE/15-SP3/x86_64/product_debug"
+		},
+		{
+			"enabled": "no",
+			"url": "https://{{ ARTIFACTORY_USER }}:{{ ARTIFACTORY_TOKEN }}@artifactory.algol60.net/artifactory/sles-mirror/Updates/SLE-Product-WE/15-SP3/x86_64/update?auth=basic",
+			"alias": "SUSE-SLE-Product-WE-15-SP3-x86_64-Updates",
+			"disable_gpg_check": "no",
+			"priority": "89",
+			"path": "suse/SLE-Product-WE/15-SP3/x86_64/update"
+		},
+		{
+			"enabled": "no",
+			"url": "https://{{ ARTIFACTORY_USER }}:{{ ARTIFACTORY_TOKEN }}@artifactory.algol60.net/artifactory/sles-mirror/Updates/SLE-Product-WE/15-SP3/x86_64/update_debug?auth=basic",
+			"alias": "SUSE-SLE-Product-WE-15-SP3-x86_64-Debuginfo-Updates",
+			"disable_gpg_check": "no",
+			"priority": "89",
+			"path": "suse/SLE-Product-WE/15-SP3/x86_64/update_debug"
+		},
+		{
+			"enabled": "yes",
+			"url": "https://{{ ARTIFACTORY_USER }}:{{ ARTIFACTORY_TOKEN }}@artifactory.algol60.net/artifactory/sles-mirror/Products/Storage/7/x86_64/product?auth=basic",
+			"alias": "SUSE-Storage-7-x86_64-Pool",
+			"disable_gpg_check": "no",
+			"priority": "89",
+			"path": "suse/Storage/7/x86_64/product"
+		},
+		{
+			"enabled": "no",
+			"url": "https://{{ ARTIFACTORY_USER }}:{{ ARTIFACTORY_TOKEN }}@artifactory.algol60.net/artifactory/sles-mirror/Products/Storage/7/x86_64/product_debug?auth=basic",
+			"alias": "SUSE-Storage-7-x86_64-Debuginfo-Pool",
+			"disable_gpg_check": "no",
+			"priority": "89",
+			"path": "suse/Storage/7/x86_64/product_debug"
+		},
+		{
+			"enabled": "yes",
+			"url": "https://{{ ARTIFACTORY_USER }}:{{ ARTIFACTORY_TOKEN }}@artifactory.algol60.net/artifactory/sles-mirror/Updates/Storage/7/x86_64/update?auth=basic",
+			"alias": "SUSE-Storage-7-x86_64-Updates",
+			"disable_gpg_check": "no",
+			"priority": "89",
+			"path": "suse/Storage/7/x86_64/update"
+		},
+		{
+			"enabled": "no",
+			"url": "https://{{ ARTIFACTORY_USER }}:{{ ARTIFACTORY_TOKEN }}@artifactory.algol60.net/artifactory/sles-mirror/Updates/Storage/7/x86_64/update_debug?auth=basic",
+			"alias": "SUSE-Storage-7-x86_64-Debuginfo-Updates",
+			"disable_gpg_check": "no",
+			"priority": "89",
+			"path": "suse/Storage/7/x86_64/update_debug"
+		},
+		{
+			"enabled": "no",
+			"url": "https://{{ ARTIFACTORY_USER }}:{{ ARTIFACTORY_TOKEN }}@artifactory.algol60.net/artifactory/sles-mirror/Products/Storage/6/x86_64/product?auth=basic",
+			"alias": "SUSE-Storage-6-x86_64-Pool",
+			"disable_gpg_check": "no",
+			"priority": "89",
+			"path": "suse/Storage/6/x86_64/product"
+		},
+		{
+			"enabled": "no",
+			"url": "https://{{ ARTIFACTORY_USER }}:{{ ARTIFACTORY_TOKEN }}@artifactory.algol60.net/artifactory/sles-mirror/Products/Storage/6/x86_64/product_debug?auth=basic",
+			"alias": "SUSE-Storage-6-x86_64-Debuginfo-Pool",
+			"disable_gpg_check": "no",
+			"priority": "89",
+			"path": "suse/Storage/6/x86_64/product_debug"
+		},
+		{
+			"enabled": "yes",
+			"url": "https://{{ ARTIFACTORY_USER }}:{{ ARTIFACTORY_TOKEN }}@artifactory.algol60.net/artifactory/sles-mirror/Updates/Storage/6/x86_64/update?auth=basic",
+			"alias": "SUSE-Storage-6-x86_64-Updates",
+			"disable_gpg_check": "no",
+			"priority": "89",
+			"path": "suse/Storage/6/x86_64/update"
+		},
+		{
+			"enabled": "no",
+			"url": "https://{{ ARTIFACTORY_USER }}:{{ ARTIFACTORY_TOKEN }}@artifactory.algol60.net/artifactory/sles-mirror/Updates/Storage/6/x86_64/update_debug?auth=basic",
+			"alias": "SUSE-Storage-6-x86_64-Debuginfo-Updates",
+			"disable_gpg_check": "no",
+			"priority": "89",
+			"path": "suse/Storage/6/x86_64/update_debug"
+		},
+		{
+			"enabled": "yes",
+			"url": "https://{{ ARTIFACTORY_USER }}:{{ ARTIFACTORY_TOKEN }}@artifactory.algol60.net/artifactory/sles-mirror/Backports/SLE-15-SP3_x86_64/standard?auth=basic",
+			"alias": "SUSE-Backports-SLE-15-SP3-x86_64",
+			"disable_gpg_check": "no",
+			"priority": "89",
+			"path": "suse/Backports-SLE/15-SP3/x86_64/standard"
+		},
+		{
+			"enabled": "yes",
+			"url": "https://{{ ARTIFACTORY_USER }}:{{ ARTIFACTORY_TOKEN }}@artifactory.algol60.net/artifactory/sles-mirror/Backports/SLE-15-SP3_x86_64/standard_debug?auth=basic",
+			"alias": "SUSE-Backports-SLE-15-SP3-x86_64-Debuginfo",
+			"disable_gpg_check": "no",
+			"priority": "89",
+			"path": "suse/Backports-SLE/15-SP3/x86_64/standard_debug"
+		},
+		{
+			"enabled": "yes",
+			"url": "https://{{ ARTIFACTORY_USER }}:{{ ARTIFACTORY_TOKEN }}@artifactory.algol60.net/artifactory/sles-mirror/Backports/SLE-15-SP2_x86_64/standard?auth=basic",
+			"alias": "SUSE-Backports-SLE-15-SP2-x86_64",
+			"disable_gpg_check": "no",
+			"priority": "89",
+			"path": "suse/Backports-SLE/15-SP2/x86_64/standard"
+		}
+	]
+}

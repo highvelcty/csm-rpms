@@ -1,0 +1,20 @@
+{
+    "repos": [
+        {
+            "enabled": "yes",
+            "url": "https://{{ ARTIFACTORY_USER }}:{{ ARTIFACTORY_TOKEN }}@artifactory.algol60.net/artifactory/sles-mirror/Backports/SLE-15-SP3_x86_64/standard_debug?auth=basic",
+            "alias": "SUSE-Backports-SLE-15-SP3-x86_64-Debuginfo", 
+            "priority": "89",
+            "disable_gpg_check": "no",
+            "path": "suse/Backports-SLE/15-SP3/x86_64/standard_debug"
+        },
+        {
+            "enabled": "yes",
+            "url": "https://{{ ARTIFACTORY_USER }}:{{ ARTIFACTORY_TOKEN }}@artifactory.algol60.net/artifactory/sles-mirror/Updates/Storage/6/x86_64/update?auth=basic",
+            "alias": "SUSE-Storage-6-x86_64-Updates",
+            "priority": "89",
+            "disable_gpg_check": "no",
+            "path": "suse/Storage/6/x86_64/update"
+        }
+    ]
+}
